@@ -19,5 +19,5 @@ exec shairport-sync \
 	--output alsa \
 	-- -d "hw:usb-soundcard-1" \
 	-c "MICROMEGA USB Audio 2.0 Output Playback Vol" \
-	-i 1 |
-	echo "Shairport-sync started. Device is discoverable as $SOUND_DEVICE_NAME"
+	-i 1 \ 
+  | echo "Shairport-sync started. Device is discoverable as $SOUND_DEVICE_NAME"
