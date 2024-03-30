@@ -7,13 +7,13 @@ services:
   # Core services
   # -- Required for a fully featured installation of balenaSound
   # -- Mutiroom services can be removed if not using multiroom mode
-  audio:
-    build: ./core/audio
-    privileged: true
-    labels:
-      io.balena.features.dbus: 1
-    ports:
-      - 4317:4317
+#  audio:
+#    build: ./core/audio
+#    privileged: true
+#    labels:
+#      io.balena.features.dbus: 1
+#    ports:
+#      - 4317:4317
 
   sound-supervisor:
     build:

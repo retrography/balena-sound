@@ -19,5 +19,5 @@ exec shairport-sync \
 	--output alsa \
 	-- -d "$ALSA_OUTPUT_DEVICE" \
 	-c "$ALSA_MIXER_CONTROL" \
-	-i $ALSA_MIXER_INDEX \
+	-i $ALSA_MIXER_INDEX |
 	echo "Shairport-sync started. Device is discoverable as $SOUND_DEVICE_NAME"
